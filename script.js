@@ -213,7 +213,7 @@
     var boxTexture = gl.createTexture();
     gl.bindTexture(gl.TEXTURE_2D, boxTexture);
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 1, 1, 0, gl.RGB, gl.UNSIGNED_BYTE,
-                  new Uint8Array([255, 255, 255]));
+                  new Uint8Array([085, 050, 145]));
     
     
     
@@ -261,5 +261,8 @@
     
         requestAnimationFrame(animate);
     }
+    //excutes the whole animation
     animate();
     }());
+
+    
